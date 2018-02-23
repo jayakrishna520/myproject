@@ -1,3 +1,3 @@
 FROM tomcat:8
 
-ADD target/*.war /usr/local/tomcat/webapps/
+ADD myproject/target/*.war /usr/local/tomcat/webapps/
